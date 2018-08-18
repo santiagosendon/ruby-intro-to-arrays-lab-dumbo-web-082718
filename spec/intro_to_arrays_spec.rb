@@ -12,7 +12,7 @@ describe "working with arrays" do
       end
       
       it "creates a new array and returns it" do
-        expect(@my_new_array).to be_an(Array)
+        expect(@my_new_array).to be_a n(Array)
       end
 
       it "returns an array that is empty" do
